@@ -1,0 +1,54 @@
+header{
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background-color: lightblue;
+	border-style: solid;
+	border-width: 5px;
+	border-color: black;
+}
+aside{
+	float: left;
+	background-color: pink;
+	margin-top: 5px;
+ 	height: 1000px;
+ 	width: 250px;
+ 	border-style: solid;
+	border-width: 5px;
+ 	border-color: black;
+ 	text-align: center;
+}
+#asideimg{
+	 float: right;
+	 text-align: right;
+	 width: 100px;
+	 height: auto;
+}
+#asideli{
+	 float: left;
+	 text-align: left;
+	 width: 200px;
+	 height: auto;
+}
+main {
+	 background-color: lime;
+	 margin-top:5px;
+	 padding-top: 5px;
+	 border-style: solid;
+	 border-width: 5px;
+	 border-color: black;
+	 text-align: center;
+	 height: 1000px;
+	 width: auto;
+}
+footer {
+	clear: both;
+	background-color: wheat;
+	border-style: solid;
+	border-width: 5px;
+	border-color: black;
+	text-align: center;
+	width: auto;
+	height: 60px;
+}
