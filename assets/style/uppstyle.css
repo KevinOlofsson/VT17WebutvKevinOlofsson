@@ -1,0 +1,28 @@
+
+body{
+	background-color: wheat;
+}
+h1{
+	text-align: center;
+}
+#pNum{
+	font-family: sans-serif;
+}
+#leapYear{
+	font-family: sans-serif;
+}
+#numSum{
+	font-family: sans-serif;
+}
+#pnBtn{
+	background-color:  lightblue;
+}
+#leapBtn{
+	background-color:  lightblue;
+}
+#numBtn{
+	background-color:  lightblue;
+}
+.validation__form{
+	text-align: center;
+}

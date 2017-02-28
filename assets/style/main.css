@@ -1,0 +1,127 @@
+body{
+	background-image: url("../resource/food.png"); 
+}
+#wrapper {
+	margin: 0 auto;
+	width:1000px;
+	height:auto;
+}
+#rubrik{
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	width: auto;
+	height: auto;
+}
+#vaniljbulle{
+	text-align:center;
+}
+.stars{
+	position: absolute;
+	color: black;
+	left: 1000px;
+	top: 525px;
+	font-size: 40px;
+	unicode-bidi: bidi-override;
+	direction: rtl;
+}
+.stars span{
+	cursor: pointer;
+}
+#star1:hover,
+#star2:hover,
+#star3:hover,
+#star4:hover,
+#star5:hover
+{
+	color: yellow;
+}
+
+.vote{
+	position: absolute;
+	left: 1040px;
+	top: 595px;
+}
+#loading{
+	position: absolute;
+	left: 1070px;
+	top: 630px;
+}
+.c-rating {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.c-rating__item {
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 24px;
+      -ms-flex: 0 0 24px;
+          flex: 0 0 24px;
+  height: 24px;
+  background: url("../resource/stars.svg");
+  background-position: 0 0;
+  cursor: pointer;
+}
+
+.c-rating__item:hover,
+.c-rating__item.is-active {
+  background-position: -24px 0;
+}
+#starE {
+  width:40px;
+  height:40px;
+  margin: 0 auto;
+}
+
+nav{
+	margin:0 auto;
+	text-align: center;
+	font-family: sans-serif;
+}
+header{
+	margin:0 auto;
+	text-align: center;
+	font-family: sans-serif;
+}
+h2{
+	text-align: center;
+	font-family: sans-serif;
+}
+p{
+	text-align: center;
+	font-family: sans-serif;
+}
+li{
+	
+}
+
+aside{
+	float:left;
+	background-color: lightblue;
+	margin-top: 2px;
+	padding-top: 5px;
+ 	height: auto;
+ 	width: 250px;
+ 	border-style: solid;
+	border-width: 5px;
+ 	border-color: black;
+}
+main{
+	 height: 740px;
+	 width: 740px;
+	 float:right;
+}
+section {
+	clear:both;
+	width:650px;
+	height:auto;
+}
+label:hover{
+	background-color: yellow;
+}

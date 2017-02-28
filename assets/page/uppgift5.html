@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Uppgift 5 - Validator</title>
+		<link rel="stylesheet" type="text/css" href="../style/uppstyle.css">
+	</head>
+	<body>
+		<article class="container">
+		<header>
+			<h1>Personnummer, skottår, summa</h1>
+		</header>
+			<form class="validation__form">
+				<hr>
+				<label><strong>Personnummer:</strong> </label><br>
+				<input type="text" id="pNum" placeholder="YYYYMMDDXXXX" class="validationInput">
+				<button class="btn" id="pnBtn">Validera</button>
+				<label>
+					<strong>Resultat:</strong> <span class="validationResult" id="pNumResult"></span>
+				</label><br>
+				<hr>
+				<label><strong>Skottår:</strong> </label><br>
+				<input type="text" id="leapYear" class="validationInput">
+				<button class="btn" id="leapBtn">Validera</button>
+				<label>
+					<strong>Resultat:</strong> <span class="validationResult" id="leapResult"></span>
+				</label><br>
+				<hr>
+				<label><strong>Siffersumma:</strong> </label><br>
+				<input type="text" id="numSum" class="validationInput">
+				<button class="btn" id="numBtn">Validera</button>
+				<label>
+					<strong>Resultat:</strong> <span class="validationResult" id="numResult"></span>
+				</label>
+			</form>
+		</article>
+		<script type="text/javascript" src="../script/myscript.js"></script>
+	</body>
+</html>

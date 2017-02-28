@@ -1,0 +1,195 @@
+header{
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background-color: lightblue;
+	border-style: solid;
+	border-width: 5px;
+	border-color: black;
+}
+aside{
+	float: left;
+	background-color: pink;
+	margin-top: 5px;
+ 	height: 1000px;
+ 	width: 250px;
+ 	border-style: solid;
+	border-width: 5px;
+ 	border-color: black;
+ 	text-align: center;
+}
+#asideimg{
+	 float: right;
+	 text-align: right;
+	 width: 100px;
+	 height: auto;
+}
+#asideli{
+	 float: left;
+	 text-align: left;
+	 width: 200px;
+	 height: auto;
+}
+main {
+	 background-color: lime;
+	 margin-top:5px;
+	 padding-top: 5px;
+	 border-style: solid;
+	 border-width: 5px;
+	 border-color: black;
+	 text-align: center;
+	 height: 1000px;
+	 width: auto;
+}
+footer {
+	clear: both;
+	background-color: wheat;
+	border-style: solid;
+	border-width: 5px;
+	border-color: black;
+	text-align: center;
+	width: auto;
+	height: 60px;
+}
+@keyframes moveAnimation1{
+    0%   {top: 100px;}
+    25%  {top: 150px; right:40px; border:8px dotted lime;}
+    50%	 {top: 300px; right: 50px; border: 10px solid hotpink;}
+    75%  {top: 50px; left:30px; height:170px; width:120px; border: ridge lightblue;}
+    100% {top: 200px; bottom:30px; opacity:1.0;}
+} 
+@keyframes moveAnimation2{
+    0%   {top: 70px; bottom:90px; margin-left:400px;}
+    25%  {top: 400px; bottom:300px; border:5px solid blue; text-align:left;}
+    50%	 {top: 200px; right: 50px; border: 15px solid green;}
+    75%  {top: 70px; bottom:20px; background: limegreen; width:300px;height:100px;text-align:right;}
+    100% {top: 100px; bottom:40px;height:7px;width:1px; opacity:4.0;}
+}
+@keyframes moveAnimation3{
+    0%   {top: 100px;left:50px; margin-right:100px;}
+    25%  {top: 260px;left:70px; border:30px solid wheat; text-align:center;}
+    75%  {top: 7050px;left:30px; background:pink; width:120px;height:20px;text-align:left;}
+    100% {top: 408px;left:70px;height:140px;width:300px; opacity:0.0;}
+}
+#box1{
+     animation-name: moveAnimation1;
+     animation-duration: 0.7s; 
+     animation-iteration-count: infinite;
+     animation-direction: alternate; 
+     animation-timing-function: ease-in; 
+     animation-fill-mode: backwards; 
+     animation-delay: 0.3s; 
+     width: 240px;
+     height: 100px;
+     opacity:1.0;
+     background: blue;
+     position : relative;
+     float:right;
+}
+#box2{
+     animation-name: moveAnimation1;
+     animation-duration: 2s; 
+     animation-iteration-count: 40;
+     animation-direction: alternate-reverse; 
+     animation-timing-function: ease-in-out; 
+     animation-fill-mode: forwards; 
+     animation-delay: 0.2s; 
+	width: 70px;
+    height: 30px;
+    background: hotpink;
+    position :relative;
+    opacity:0.9;
+    margin-left:100px;
+    float: left;
+}
+#box3{
+     animation-name: moveAnimation1;
+     animation-duration: 4s; 
+     animation-iteration-count: 17;
+     animation-direction: normal; 
+     animation-timing-function: ease-out; 
+     animation-fill-mode: forwards; 
+     animation-delay: 1s; 
+	 margin-top:85px;
+	 width: 78px;
+     height: 22px;
+     background: orange;
+     position: relative;
+     margin-left:10px;
+     opacity:2.0;
+     clear: both;
+}
+#box4{
+     animation-name: moveAnimation2;
+     animation-duration: 0.1s; 
+     animation-iteration-count: infinite;
+     animation-direction: alternate; 
+     animation-timing-function: ease-in-out; 
+     animation-fill-mode: forwards; 
+     animation-delay: 2s; 
+	 width: 320px;
+     height: 190px;
+     background: lime;
+     position: relative;
+     margin-left:270px;
+     float: right;
+}
+#box5{
+     animation-name: moveAnimation2;
+     animation-duration: 0.4s; 
+     animation-iteration-count: 11;
+     animation-direction: reverse; 
+     animation-timing-function: ease-in; 
+     animation-fill-mode: backwards; 
+     animation-delay: 1s; 
+     width: 101px;
+     height: 410px;
+     background: lightblue;
+     position :relative;
+     margin:0 auto;
+     float: right;
+}
+#box6{
+     animation-name: moveAnimation2;
+     animation-duration: 2s; 
+     animation-iteration-count: 23;
+     animation-direction: normal; 
+     animation-timing-function: ease-out; 
+     animation-fill-mode: backwards; 
+     animation-delay: 0s; 
+     width: 22px;
+     height: 32px;
+     background: black;
+     position :relative;
+     float:left;
+}
+#box7{
+    animation-name: moveAnimation3;
+     animation-duration: 10s; 
+     animation-iteration-count: 20;
+     animation-direction: alternate-reverse; 
+     animation-timing-function: ease-in; 
+     animation-fill-mode: forwards; 
+     animation-delay: 1s;
+     width: 25px;
+     height: 30px;
+     background: navy;
+     position: absolute;
+     float: left;
+}
+#box8{
+    animation-name: moveAnimation3;
+     animation-duration: 1.2s; 
+     animation-iteration-count: 16;
+     animation-direction: reverse; 
+     animation-timing-function: ease-in-out; 
+     animation-fill-mode: backwards; 
+     animation-delay: 0.2s;
+     width: 2px;
+     height: 2px;
+     background: lightgrey;
+     position: relative;
+     float: left;
+
+}
