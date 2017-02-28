@@ -17,66 +17,62 @@ body{
 #vaniljbulle{
 	text-align:center;
 }
-.stars{
-	position: absolute;
-	color: black;
-	left: 1000px;
-	top: 525px;
-	font-size: 40px;
-	unicode-bidi: bidi-override;
-	direction: rtl;
-}
-.stars span{
-	cursor: pointer;
-}
-#star1:hover,
-#star2:hover,
-#star3:hover,
-#star4:hover,
-#star5:hover
-{
-	color: yellow;
-}
 
-.vote{
-	position: absolute;
-	left: 1040px;
-	top: 595px;
-}
 #loading{
 	position: absolute;
 	left: 1070px;
 	top: 630px;
 }
-.c-rating {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  list-style: none;
-  margin: 0;
-  padding: 0;
+
+.star{
+	font-size: 40px;
+	color: black;
+	cursor: pointer;
+	position: absolute;
+	left: 943px;
+	top: 573px;
+}
+#stars {
+	position: absolute;
+	left: 1005px;
+	top: 568px;
+	cursor: pointer;
+}
+#votes{
+	position: absolute;
+	left: 1020px;
+	top: 600px;
+}
+#rating1 {
+	font-size: 40px;
+	color: aqua;
 }
 
-.c-rating__item {
-  -webkit-box-flex: 0;
-  -webkit-flex: 0 0 24px;
-      -ms-flex: 0 0 24px;
-          flex: 0 0 24px;
-  height: 24px;
-  background: url("../resource/stars.svg");
-  background-position: 0 0;
-  cursor: pointer;
+#rating2 {
+	font-size: 40px;
+	color: aqua;
 }
 
-.c-rating__item:hover,
-.c-rating__item.is-active {
-  background-position: -24px 0;
+#rating3 {
+	font-size: 40px;
+	color: aqua;
 }
-#starE {
-  width:40px;
-  height:40px;
-  margin: 0 auto;
+
+#rating4 {
+	font-size: 40px;
+	color: aqua;
+}
+
+#rating5 {
+	font-size: 40px;
+	color: aqua;
+}
+#home{
+	font-size: 40px;
+	color: aqua;
+}
+a:visited{
+	color: aqua;
 }
 
 nav{
@@ -103,7 +99,7 @@ li{
 
 aside{
 	float:left;
-	background-color: lightblue;
+	background-color: aqua;
 	margin-top: 2px;
 	padding-top: 5px;
  	height: auto;
@@ -121,7 +117,4 @@ section {
 	clear:both;
 	width:650px;
 	height:auto;
-}
-label:hover{
-	background-color: yellow;
 }

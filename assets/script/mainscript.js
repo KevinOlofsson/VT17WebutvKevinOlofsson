@@ -1,7 +1,8 @@
-
+//ökar antalet ingredienser för olika antal
 function setBatchNum(){
     console.log(document.getElementById("batchNum").value)
     if (document.getElementById("batchNum").value == 30) {
+        document.getElementById("yeast").innerHTML = 50;
         document.getElementById("butter").innerHTML = 150;
         document.getElementById("sugar").innerHTML = 1;
         document.getElementById("egg").innerHTML = 1;
@@ -13,6 +14,7 @@ function setBatchNum(){
     }
 
     if (document.getElementById("batchNum").value == 40) {
+        document.getElementById("yeast").innerHTML = 65;
         document.getElementById("butter").innerHTML = 200;
         document.getElementById("sugar").innerHTML = 1.3;
         document.getElementById("egg").innerHTML = 1.3;
@@ -23,6 +25,7 @@ function setBatchNum(){
         document.getElementById("sugar2").innerHTML = 1.3;
     }
     if (document.getElementById("batchNum").value == 50) {
+        document.getElementById("yeast").innerHTML = 85;
         document.getElementById("butter").innerHTML = 250;
         document.getElementById("sugar").innerHTML = 1.6;
         document.getElementById("egg").innerHTML = 1.6;
@@ -33,6 +36,7 @@ function setBatchNum(){
         document.getElementById("sugar2").innerHTML = 1.6;
     }
     if (document.getElementById("batchNum").value == 60) {
+        document.getElementById("yeast").innerHTML = 100;
         document.getElementById("butter").innerHTML = 300;
         document.getElementById("sugar").innerHTML = 2;
         document.getElementById("salt").innerHTML = 1;
@@ -45,6 +49,7 @@ function setBatchNum(){
         document.getElementById("sugar2").innerHTML = 2;
     }
     if (document.getElementById("batchNum").value == 70) {
+        document.getElementById("yeast").innerHTML = 115;
         document.getElementById("butter").innerHTML = 350;
         document.getElementById("sugar").innerHTML = 2.3;
         document.getElementById("salt").innerHTML = 1;
@@ -56,6 +61,7 @@ function setBatchNum(){
         document.getElementById("sugar2").innerHTML = 2.3;
     }
     if (document.getElementById("batchNum").value == 80) {
+        document.getElementById("yeast").innerHTML = 130;
         document.getElementById("butter").innerHTML = 400;
         document.getElementById("sugar").innerHTML = 2.6;
         document.getElementById("salt").innerHTML = 1;
@@ -68,6 +74,7 @@ function setBatchNum(){
     }
     if (document.getElementById("batchNum").value == 90) {
         document.getElementById("butter").innerHTML = 450;
+        document.getElementById("yeast").innerHTML = 150;
         document.getElementById("sugar").innerHTML = 3;
         document.getElementById("salt").innerHTML = 1.5;
         document.getElementById("egg").innerHTML = 3;
@@ -79,6 +86,7 @@ function setBatchNum(){
         document.getElementById("sugar2").innerHTML = 3;
     }
     if (document.getElementById("batchNum").value == 100) {
+        document.getElementById("yeast").innerHTML = 165;
         document.getElementById("butter").innerHTML = 500;
         document.getElementById("sugar").innerHTML = 3.3;
         document.getElementById("salt").innerHTML = 1.5;
